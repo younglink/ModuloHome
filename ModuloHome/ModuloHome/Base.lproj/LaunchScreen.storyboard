@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="inU-eq-g5f">
+                                <rect key="frame" x="20" y="261.5" width="374" height="373"/>
+                                <color key="tintColor" name="Brown"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="inU-eq-g5f" secondAttribute="height" multiplier="1:1" id="R5K-bL-NpR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DeviceLightOnIcon" translatesAutoresizingMaskIntoConstraints="NO" id="P8t-aD-EmG">
+                                <rect key="frame" x="53.5" y="491.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="P8t-aD-EmG" secondAttribute="height" multiplier="1:1" id="0sf-eY-2Np"/>
+                                    <constraint firstAttribute="width" constant="100" id="NSM-FS-j6r"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ModuloHome" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JzH-Xx-f9T">
+                                <rect key="frame" x="95.5" y="426" width="223" height="44"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
+                                <color key="textColor" name="White"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" name="Brown"/>
+                                <size key="shadowOffset" width="4" height="-2"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DeviceHeaterOnIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Xos-wM-djr">
+                                <rect key="frame" x="260.5" y="491.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="Tu0-Z5-QGJ"/>
+                                    <constraint firstAttribute="width" secondItem="Xos-wM-djr" secondAttribute="height" multiplier="1:1" id="Ugy-uA-O9D"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="DeviceRollerShutterIcon" translatesAutoresizingMaskIntoConstraints="NO" id="KZd-qd-9qP">
+                                <rect key="frame" x="157" y="248.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="I6Y-Y1-UlZ"/>
+                                    <constraint firstAttribute="width" secondItem="KZd-qd-9qP" secondAttribute="height" multiplier="1:1" id="Zh8-wQ-cxb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="LightSteelBlue"/>
+                        <constraints>
+                            <constraint firstItem="P8t-aD-EmG" firstAttribute="firstBaseline" secondItem="Xos-wM-djr" secondAttribute="firstBaseline" id="3uP-XH-rbu"/>
+                            <constraint firstItem="Xos-wM-djr" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" multiplier="3/2" id="5dJ-fp-T39"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="inU-eq-g5f" secondAttribute="trailing" constant="20" id="6ob-D0-8Or"/>
+                            <constraint firstItem="P8t-aD-EmG" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" multiplier="1/2" id="AIw-kT-tMb"/>
+                            <constraint firstItem="P8t-aD-EmG" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="29/24" id="Afx-dC-TrT"/>
+                            <constraint firstItem="inU-eq-g5f" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WAz-DE-DKG"/>
+                            <constraint firstItem="inU-eq-g5f" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="abb-TO-Rem"/>
+                            <constraint firstItem="KZd-qd-9qP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" multiplier="2/3" id="bPI-1Q-OsO"/>
+                            <constraint firstItem="KZd-qd-9qP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="cJL-5W-dEC"/>
+                            <constraint firstItem="JzH-Xx-f9T" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tcI-9U-FSr"/>
+                            <constraint firstItem="JzH-Xx-f9T" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uaz-Wq-sLw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DeviceHeaterOnIcon" width="256" height="256"/>
+        <image name="DeviceLightOnIcon" width="256" height="256"/>
+        <image name="DeviceRollerShutterIcon" width="256" height="256"/>
+        <image name="circle" catalog="system" width="128" height="121"/>
+        <namedColor name="Brown">
+            <color red="0.6589999794960022" green="0.50199997425079346" blue="0.3880000114440918" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LightSteelBlue">
+            <color red="0.68999999761581421" green="0.76899999380111694" blue="0.87099999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="White">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
